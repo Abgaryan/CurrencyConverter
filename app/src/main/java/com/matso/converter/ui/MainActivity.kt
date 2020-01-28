@@ -1,7 +1,8 @@
-package com.matso.converter
+package com.matso.converter.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.matso.converter.R
 
 class MainActivity : AppCompatActivity() {
 
