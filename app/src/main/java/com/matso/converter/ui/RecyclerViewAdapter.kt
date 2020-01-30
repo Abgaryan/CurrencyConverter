@@ -11,9 +11,7 @@ import com.matso.converter.comman.toFlagEmoji
 import com.matso.converter.comman.underline
 import kotlinx.android.synthetic.main.rate_view.view.*
 import kotlinx.android.synthetic.main.rate_view_item.view.*
-import java.text.DecimalFormat
 import java.util.*
-
 
 class RecyclerViewAdapter(private val rateItemClickListener: RateItemClickListener) :
     RecyclerView.Adapter<RecyclerViewAdapter.RateViewHolder>() {
@@ -77,7 +75,7 @@ class RecyclerViewAdapter(private val rateItemClickListener: RateItemClickListen
             itemView.tvSymbol.text = ratePair.first.dropLast(1).toFlagEmoji()
             itemView.tvName.text = ratePair.first
             itemView.tvDisplayName.text = currency.displayName
-            itemView.tvRate.text =  DECIMAL_FORMAT.format(ratePair.second)
+            itemView.tvRate.text = DECIMAL_FORMAT.format(ratePair.second)
             itemView.tvRate.underline()
 
         }
