@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rate_item_content"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_72_dp"
+    android:background="?selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="@dimen/dimen_12_dp">
+
+    <include layout="@layout/rate_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/tvRate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentEnd="true"
+        android:ellipsize="start"
+        android:ems="7"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textsize_20_sp" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <!-- Spacing constants (for margins and paddings) -->
+    <dimen name="dimen_12_dp">12dp</dimen>
+    <dimen name="dimen_32_dp">32dp</dimen>
+    <dimen name="dimen_36_dp">36dp</dimen>
+    <dimen name="dimen_64_dp">64dp</dimen>
+    <dimen name="dimen_72_dp">72dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="textsize_14_sp">14sp</dimen>
+    <dimen name="textsize_16_sp">16sp</dimen>
+    <dimen name="textsize_">18sp</dimen>
+    <dimen name="textsize_20_sp">20sp</dimen>
+    <dimen name="textsize_24_sp">24sp</dimen>
+    <dimen name="textsize_32_sp">32sp</dimen>
+
+</resources>
